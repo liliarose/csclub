@@ -1,0 +1,44 @@
+Circular Line Sweep
+
+Remember the sample code I attached?
+http://ideone.com/DfKczB
+
+Well in this case the line segments are all on a one dimensional number line. It looks something 
+like this:
+
+<--------------------------------------------------------------->
+|xxxxxxxxxx Segment 1 xxxxxxxxxxx|
+	|xxxxxxx Segment 2 xxxxxxx|
+			|xxxx Segment 3 xxxx|
+						         |xxxxxx Segment 4 xxxxxx|
+
+Of course this number line can extend from -infinity to +infinity. I don’t really like that, you 
+don’t like working with infinity in programming too right?
+
+Well then what if we took the number line and turned it into a circle? Then it will look something
+like this:
+
+Basically the circle is now numbered with coordinates but stops at a certain value, let’s say M 
+(1 ≤ M ≤ 1,000,000). After that the coordinate returns to 0, just like a circle:
+
+
+Given N line segments (1 ≤ N ≤ 100,000) and their left and right coordinates (x_i, y_i), find the 
+maximum overlap the line segments achieve. The maximum overlap is basically the maximum total 
+number of line segments that cover any point. Assume that no line segment has “length” greater than the circumference of the circle.
+
+Input Format:
+Integers N and M, separated by a space
+(x_i, y_i) for each of the N line segments
+
+Sample Input:
+4 10
+4 8
+3 5
+9 2
+10 5
+
+Output Format:
+An integer, the max overlap (remember to put a newline!)
+
+Sample Output:
+3
