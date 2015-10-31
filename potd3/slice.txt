@@ -1,0 +1,38 @@
+Problem Statement — Slicing arrays:
+
+Define an operation called a slice that reduces all elements of a given positive integer array by the minimum element in that array. Any element that becomes 0 after the slice is removed from the array.
+
+For instance, slicing the array {1, 5, 3, 3, 2} once gives the array: {4, 2, 2, 1}
+
+since each element in the array has been reduced by the minimum (1), and the element that became 0 after subtraction was removed.
+
+Find the number of slices necessary to remove all elements from the array.
+
+
+Input format:
+
+N (number of integers in following array)
+Arr (List of positive integers separated by a space)
+
+Input Example:
+
+5
+1 5 3 3 2
+
+Output Format:
+
+S (number of slices needed to eliminate all elements)
+
+Output Example:
+
+4
+
+As always, read from standard in and write to standard out. Don’t forget a new line after output!
+
+
+Constraints
+
+Beginner Sample Size: N (input array size) <= 1000
+Advanced Sample Size: N (input array size) <= 105000
+
+
