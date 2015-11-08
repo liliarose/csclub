@@ -1,0 +1,20 @@
+I have a board of size 1 by N. I also have an infinite supply of candy corn and I am allowed to place 
+candy corn in any spot on the board so long as no 2 candy corn are adjacent to each other. How many 
+possible ways are there to put candy corn on the board? Include the case where the board is empty as 
+well. Please print your answer modulo 2017.
+
+Input format:
+A single integer N
+
+Output format:
+The number of possible outcomes
+
+Sample Input:
+2
+
+Sample Output:
+3
+
+Constraints:
+Beginner: 1 <= N <= 15
+Advanced: 1 <= N <= 10,000
