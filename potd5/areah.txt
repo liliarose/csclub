@@ -1,0 +1,30 @@
+Area Under a Histogram
+
+Today we just gave a lecture on data structures. Think you mastered them? Let’s see.
+
+From statistics class, you remember how we always worked with histograms. You also remember that for 
+histograms, each bar is of equal width, one unit.
+
+Your task is to find a rectangle that fits under this histogram and maximize its area. Find this 
+maximum area.
+
+Example:
+There are 3 rectangles in this histogram: of heights 5, 7, and 1. The largest rectangular area is boxed
+in red, it has an area of 5 * 2 = 10. Be careful with integer overflow
+
+Input Format:
+An integer N, which is the number of rectangles (1 <= N <= 100,000)
+The next N lines will be the respective heights of the rectangles, the rectangles are given in 
+order from left to right: Each rectangle is represented by a height H (1 <= H <= 100,000).
+
+Output Format:
+One number: the largest area (don’t forget a new line!) 
+
+Sample Input:
+3
+5
+7
+1
+
+Sample Output:
+10			
